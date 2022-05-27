@@ -3,16 +3,16 @@ For myself note something
 
 ## 基本用户添加
 ```
-1.useradd jieyuzhang
-2.passwd jieyuzhang
-3.mkdir /home/jieyuzhang
-4.chown jieyuzhang:jieyuzhang /home/jieyuzhang
-5.chmod 0700 /home/jieyuzhang
+1.useradd usrname
+2.passwd usrname
+3.mkdir /home/usrname
+4.chown usrname:usrname /home/usrname
+5.chmod 0700 /home/usrname
 6.vim /etc/passwd  改sh为bash
 ```
 ## 用户docker添加
 ```
-usermod -aG docker dannixiong
+usermod -aG docker usrname
 ```
 
 ##待使用并行
